@@ -28,24 +28,24 @@ function App() {
     "You've broken my heart",
   ];
   const yesSize = [
-    "px-8 py-4",
-    "px-10 py-5",
-    "px-12 py-6",
-    "px-16 py-8",
-    "px-20 py-10",
-    "px-24 py-10",
-    "px-28 py-12",
-    "px-32 py-12",
-    "px-36 py-12",
-    "px-40 py-14",
-    "px-44 py-14",
-    "px-48 py-14",
-    "px-52 py-14",
-    "px-56 py-16",
-    "px-60 py-16",
-    "px-64 py-20",
-    "px-72 py-24",
-    "px-80 py-32",
+    "px-8 py-4 text-xl",
+    "px-10 py-5 text-xl",
+    "px-12 py-6 text-2xl",
+    "px-16 py-8 text-2xl",
+    "px-20 py-10 text-3xl",
+    "px-24 py-10 text-3xl",
+    "px-28 py-12 text-4xl",
+    "px-32 py-12 text-4xl",
+    "px-36 py-12 text-5xl",
+    "px-40 py-14 text-5xl",
+    "px-44 py-14 text-6xl",
+    "px-48 py-14 text-6xl",
+    "px-52 py-14 text-7xl",
+    "px-56 py-16 text-7xl",
+    "px-60 py-16 text-8xl",
+    "px-64 py-20 text-8xl",
+    "px-72 py-24 text-9xl",
+    "px-80 py-32 text-9xl",
   ];
 
   function saidNo() {
@@ -53,10 +53,10 @@ function App() {
     setGifs("https://media1.tenor.com/m/5t-iIxnzE8MAAAAC/sad-bear-cry.gif");
     setBt(buttonText[Math.floor(Math.random() * buttonText.length)]);
     setInput((prev) => {
-      if (prev != "px-80 py-32") {
+      if (prev != "px-80 py-32 text-9xl") {
         return yesSize[count];
       } else {
-        return "px-80 py-32";
+        return "px-80 py-32 text-9xl";
       }
     });
   }
